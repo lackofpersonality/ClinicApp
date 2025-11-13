@@ -1,0 +1,250 @@
+@charset "UTF-8";
+
+/* doctorMain*/
+body#bodDoc {
+    display: flex;
+    background-color: #EBEBEB;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+}
+
+
+#tablasDia {
+    display: grid;
+    gap: 20px;
+    align-items: flex-start;
+    grid-template-columns: 2fr 2fr 1fr;
+}
+
+#tablasDia article {
+    width: 100%;
+    padding: 10px;
+}
+
+#reloj {
+
+    text-align: center;
+    padding: 10px;
+}
+textarea {
+    width: 100%; 
+    height: 300px; 
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; 
+    box-sizing: border-box; 
+}
+
+#tablasDia table,
+#tablasDia th,
+#tablasDia td {
+    width: 100%;
+    color: black;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* doctorMain*/
+/*patientManagement*/
+#regist1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+/*patientManagement*/
+/*search/deletePatient*/
+
+#deledit {
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+/*DocTrat*/
+#trat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+/*PatientMain*/
+#regist2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+/*PatientMain*/
+/*historyManagement*/
+#genDoc2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 200px; 
+}
+
+#hist {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    grid-template-columns: 2fr 2fr 1fr;
+}
+
+#hist article {
+    flex: 2;
+    width: 100%;
+    padding: 75px;
+}
+
+#hist aside {
+    flex: 3;
+    width: 100%;
+    padding: 75px;
+}
+
+/*historyManagement*/
+
+/* docAppts */
+#apt1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* docAppts */
+
+#formRegistroDoctor {
+  display: grid;
+  grid-template-columns: max-content max-content; 
+  gap: 15px; 
+  column-gap: 50px;
+  justify-content: center;
+}
+
+#formRegistroDoctor label,
+#formRegistroDoctor input {
+  width: 100%;
+  text-align: left;
+}
+
+#formRegistroDoctor button {
+  grid-column: 1 / -1; 
+  justify-self: center; 
+  padding: 10px 20px;
+}
+nav {
+    width: 200px;
+    height: 100vh;
+    background-color: #2c3e50;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    height: 90vh; 
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    list-style: none; 
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+nav a img {
+    width: 50px; 
+    height: 50px;
+    filter:invert(100%);
+    margin-bottom: 5px;
+}
+
+main {
+    gap: 10px;
+    padding: 10px;
+}
+
+header,
+section,
+article,
+aside,
+footer {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #1F77B2;
+    color: white;
+}
+
+
+header {
+    background-color: #1F77B2;
+    text-align: center;
+    padding: 25px 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+article {
+    background-color: #C6D8F5;
+    color: black;
+}
+
+aside {
+    background-color: #E8FFF2;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F77B2;
+    margin-top: auto;
+}
+
+form {
+    text-align: center;
+}
+#formCita{
+    text-align: justify;
+    padding: 10px;
+    
+}
+#calendar {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+#calendar th,
+#calendar td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em; 
+    font-weight: normal; 
+    color: black;
+    background-color: white;}
+
+

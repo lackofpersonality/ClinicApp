@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="clinictyle.css" type="text/css">
+    <title>Registro de Doctor</title>
+</head>
+
+<body id="bodDoc">
+    <header>
+        <h1>Registro</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Cree su cuenta</h2>
+            <article id="registroDoctor">
+                <form id="formRegistroDoctor">
+                    <label for="name"><b>Nombres:</b></label>
+                    <input type="text" id="name" name="nombre" required>
+
+                    <label for="paterno"><b>Apellido Paterno:</b></label>
+                    <input type="text" id="paterno" name="apellidoP" required>
+
+                    <label for="materno"><b>Apellido Materno:</b></label>
+                    <input type="text" id="materno" name="apellidoM" required>
+
+                    <label for="correo"><b>Correo Electrónico:</b></label>
+                    <input type="email" id="correo" name="correo" required>
+
+                    <label for="cedula"><b>Cédula Profesional:</b></label>
+                    <input type="text" id="cedula" name="cedula" required>
+
+                    <label for="usuario"><b>Usuario:</b></label>
+                    <input type="text" id="usuario" name="usuario" required>
+
+                    <label for="contrasenia"><b>Contraseña:</b></label>
+                    <input type="password" id="contrasenia" name="contrasenia" required>
+
+                    <label for="confirm"><b>Confirmar contraseña:</b></label>
+                    <input type="password" id="confirm" name="confirmar" required>
+
+                    <button type="button" onclick="location.href='index.html'">Registrar</button>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ClinicApp | Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>
